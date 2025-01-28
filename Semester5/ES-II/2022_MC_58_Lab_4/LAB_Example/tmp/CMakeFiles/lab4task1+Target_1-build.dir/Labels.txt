@@ -1,0 +1,11 @@
+# Target labels
+ lab4task1+Target_1
+# Source files and their labels
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/CMakeFiles/lab4task1+Target_1-build
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/CMakeFiles/lab4task1+Target_1-build.rule
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-build.rule
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-configure.rule
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-patch.rule
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-update.rule
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-download.rule
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-mkdir.rule

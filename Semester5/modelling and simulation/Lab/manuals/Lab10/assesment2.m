@@ -1,0 +1,34 @@
+clc; 
+TR = [0 10]; 
+X0 = [0;0;0;0]; 
+[t,y]=ode45(@fun,TR,X0); 
+x1=y(:,1); 
+v1=y(:,2); 
+x2=y(:,3); 
+v2=y(:,4); 
+a1=gradient(v1); 
+a2=gradient(v2); 
+subplot(2,3,1) 
+plot(t,x1) 
+xlabel('time') 
+ylabel('Displacement-1') 
+subplot(2,3,2) 
+plot(t,v1) 
+xlabel('time') 
+ylabel('Velocity-1') 
+subplot(2,3,3) 
+plot(t,a1) 
+xlabel('time') 
+ylabel('Acceleration-1') 
+subplot(2,3,4) 
+plot(t,x2) 
+xlabel('time') 
+ylabel('Displacement-2') 
+subplot(2,3,5) 
+plot(t,v2) 
+xlabel('time') 
+ylabel('Velocity-2') 
+subplot(2,3,6) 
+plot(t,a2) 
+xlabel('time') 
+ylabel('Acceleration-2') 

@@ -1,0 +1,15 @@
+# ninja log v6
+95	240	7532006843346028	lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-mkdir	4da6b469d4463057
+95	240	7532006843346028	C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-mkdir	4da6b469d4463057
+241	378	7532006844706020	lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-download	524cd34d772c8803
+241	378	7532006844706020	C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-download	524cd34d772c8803
+378	507	7532006845986000	lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-update	737992618cb570bb
+378	507	7532006845986000	C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-update	737992618cb570bb
+36	235	7532060947481314	lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-database	ff7b4640f1667301
+507	991	7532006850179595	lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-patch	741c3c933e421bcf
+507	991	7532006850179595	C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-patch	741c3c933e421bcf
+991	10792	7532006948886789	lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-configure	91b2138532e17f56
+991	10792	7532006948886789	C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-configure	91b2138532e17f56
+36	235	7532060947481314	C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-database	ff7b4640f1667301
+46	279	7532060960342313	lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-database	ff7b4640f1667301
+46	279	7532060960342313	C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1/src/lab4task1+Target_1-stamp/lab4task1+Target_1-database	ff7b4640f1667301

@@ -1,0 +1,15 @@
+syms s T
+k=2;d=6877/7200;
+A=[k , -k ; -k , (d*s+k)];
+B=[110/26*T;0]; 
+C=A\B;
+theta3=C(2);
+theta4=theta3*23/120;
+G=theta4/T;
+G=collect(G,s);
+[num,den]=numden(G);
+num=sym2poly(num);den=sym2poly(den);
+num=num/den(1);     %dividing by den(1) means dividing by the leading coefficient of denominator i.e., 20 in this case. Done to match the outputs
+den=den/den(1);
+fprintf('theta4(s)/T(s):')
+tf(num,den)

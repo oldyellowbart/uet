@@ -1,0 +1,6 @@
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/CMakeFiles/lab4task1+Target_1.dir
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/CMakeFiles/lab4task1+Target_1-build.dir
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/CMakeFiles/lab4task1+Target_1-configure.dir
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/CMakeFiles/lab4task1+Target_1-database.dir
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/CMakeFiles/edit_cache.dir
+C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/CMakeFiles/rebuild_cache.dir

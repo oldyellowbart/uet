@@ -1,0 +1,9 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=source_dir
+command=
+source_dir=C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/lab4task1+Target_1
+work_dir=
+

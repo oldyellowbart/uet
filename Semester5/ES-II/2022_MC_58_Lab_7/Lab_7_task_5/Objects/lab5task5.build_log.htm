@@ -1,0 +1,709 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: haseeb ulhassan, uet, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\dell\Desktop\2022_MC_58\Semester5\ES-II\2022_MC_58_Lab_7\Lab_7_task_5\lab5task5.uvprojx
+Project File Date:  11/09/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+lab7task5.c(10): warning: // comments are not allowed in this language [-Wcomment]
+//_______________________________________________________________________
+^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(170): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_compiler.h(32): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(408): error: unknown type name 'inline'
+__STATIC_FORCEINLINE uint32_t __RRX(uint32_t value)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(47): note: expanded from macro '__STATIC_FORCEINLINE'
+  #define __STATIC_FORCEINLINE                   __attribute__((always_inline)) static inline
+                                                                                       ^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(408): error: expected ';' after top level declarator
+__STATIC_FORCEINLINE uint32_t __RRX(uint32_t value)
+                             ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(1763): error: unknown type name 'inline'
+__STATIC_INLINE void __NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(1782): error: unknown type name 'inline'
+__STATIC_INLINE uint32_t __NVIC_GetPriorityGrouping(void)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(1782): error: expected ';' after top level declarator
+__STATIC_INLINE uint32_t __NVIC_GetPriorityGrouping(void)
+                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(189): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_Enable(uint32_t MPU_Control)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(202): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_Disable(void)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(216): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_ClrRegion(uint32_t rnr)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(226): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_SetRegion(uint32_t rbar, uint32_t rasr)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(237): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_SetRegionEx(uint32_t rnr, uint32_t rbar, uint32_t rasr)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(249): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_OrderedMemcpy(volatile uint32_t* dst, const uint32_t* __RESTRICT src, uint32_t len)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(262): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32_t cnt)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(262): error: unknown type name 'ARM_MPU_Region_t'
+__STATIC_INLINE void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32_t cnt)
+                                  ^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(264): error: use of undeclared identifier 'ARM_MPU_Region_t'
+  const uint32_t rowWordSize = sizeof(ARM_MPU_Region_t)/4U;
+                                      ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2091): error: unknown type name 'inline'
+__STATIC_INLINE uint32_t SCB_GetFPUType(void)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2091): error: expected ';' after top level declarator
+__STATIC_INLINE uint32_t SCB_GetFPUType(void)
+                        ^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2172): error: unknown type name 'inline'
+__STATIC_INLINE uint32_t ITM_SendChar (uint32_t ch)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2172): error: expected ';' after top level declarator
+__STATIC_INLINE uint32_t ITM_SendChar (uint32_t ch)
+                        ^
+lab7task5.c(12): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(298): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(338): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(357): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(713): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(729): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(774): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(779): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(872): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(885): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(892): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(897): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(904): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(910): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(917): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(924): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(929): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(936): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(942): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(949): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(956): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(961): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(968): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(974): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(981): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(988): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(993): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1000): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1006): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1013): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1020): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1025): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1032): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1038): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1045): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1052): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1057): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1064): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1070): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1077): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1084): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1089): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1096): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1102): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1251): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+lab7task5.c(25): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+int main(){
+        ^
+         void
+lab7task5.c(33): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                PWM1->_3_CMPA = pwm;//for averahe bldc pwm
+                              ~ ^~~
+lab7task5.c(51): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  SYSCTL->RCC = (SYSCTL->RCC &~ 0x000007C0) + 0x00000540;  // clear XTAL field, bits 10-6  // 10101, configure for 16 MHz crystal
+                             ~^~~~~~~~~~~~
+lab7task5.c(52): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  SYSCTL->RCC2 &= ~0x00000070;  // configure for main oscillator source
+               ~~ ^~~~~~~~~~~
+lab7task5.c(55): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  SYSCTL->RCC2 &= ~0x00002000;
+               ~~ ^~~~~~~~~~~
+lab7task5.c(59): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  SYSCTL->RCC2 = (SYSCTL->RCC2 &~ 0x1FC00000) + (24<<22);      // configure for 16 MHz clock / / clear system clock divider +
+                               ~^~~~~~~~~~~~
+lab7task5.c(65): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+  SYSCTL->RCC2 &= ~0x00000800;
+               ~~ ^~~~~~~~~~~
+lab7task5.c(130): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        GPIOE->AMSEL    &= ~(0x02); // Step4  : Disable_analog_mode_select_on PE1                       (1111 1101)
+                        ~~ ^~~~~~~
+lab7task5.c(133): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        GPIOE->DIR              &= ~(0x05); // Step6  : PE0,PE1 as input                                                                                        (0000 0101)
+                                ~~ ^~~~~~~
+lab7task5.c(134): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        GPIOE->DEN              &= ~(0x05); // Step6  : digital disable on pe2,pe0                                              (0000 0101)
+                                ~~ ^~~~~~~
+lab7task5.c(153): warning: comparison of integers of different signs: 'volatile uint32_t' (aka 'volatile unsigned int') and 'int' [-Wsign-compare]
+void msdelay(int time1){for (i = 0; i < time1*1538; i++);}
+                                    ~ ^ ~~~~~~~~~~
+lab7task5.c(13): warning: no previous extern declaration for non-static variable 'j' [-Wmissing-variable-declarations]
+unsigned volatile long j;
+                       ^
+lab7task5.c(13): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+unsigned volatile long j;
+^
+lab7task5.c(14): warning: no previous extern declaration for non-static variable 'i' [-Wmissing-variable-declarations]
+volatile uint32_t i;
+                  ^
+lab7task5.c(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile uint32_t i;
+         ^
+lab7task5.c(15): warning: no previous extern declaration for non-static variable 'jk' [-Wmissing-variable-declarations]
+unsigned volatile long jk;
+                       ^
+lab7task5.c(15): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+unsigned volatile long jk;
+^
+lab7task5.c(16): warning: no previous extern declaration for non-static variable 'adc_data' [-Wmissing-variable-declarations]
+int adc_data;
+    ^
+lab7task5.c(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int adc_data;
+^
+lab7task5.c(17): warning: no previous extern declaration for non-static variable 'pwm' [-Wmissing-variable-declarations]
+int pwm;
+    ^
+lab7task5.c(17): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int pwm;
+^
+61 warnings and 18 errors generated.
+compiling lab7task5.c...
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(170): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_compiler.h(32): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(408): error: unknown type name 'inline'
+__STATIC_FORCEINLINE uint32_t __RRX(uint32_t value)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(47): note: expanded from macro '__STATIC_FORCEINLINE'
+  #define __STATIC_FORCEINLINE                   __attribute__((always_inline)) static inline
+                                                                                       ^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(408): error: expected ';' after top level declarator
+__STATIC_FORCEINLINE uint32_t __RRX(uint32_t value)
+                             ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(1763): error: unknown type name 'inline'
+__STATIC_INLINE void __NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(1782): error: unknown type name 'inline'
+__STATIC_INLINE uint32_t __NVIC_GetPriorityGrouping(void)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(1782): error: expected ';' after top level declarator
+__STATIC_INLINE uint32_t __NVIC_GetPriorityGrouping(void)
+                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(189): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_Enable(uint32_t MPU_Control)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(202): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_Disable(void)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(216): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_ClrRegion(uint32_t rnr)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(226): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_SetRegion(uint32_t rbar, uint32_t rasr)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(237): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_SetRegionEx(uint32_t rnr, uint32_t rbar, uint32_t rasr)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(249): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_OrderedMemcpy(volatile uint32_t* dst, const uint32_t* __RESTRICT src, uint32_t len)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(262): error: unknown type name 'inline'
+__STATIC_INLINE void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32_t cnt)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2070): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(262): error: unknown type name 'ARM_MPU_Region_t'
+__STATIC_INLINE void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32_t cnt)
+                                  ^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/m-profile/armv7m_mpu.h(264): error: use of undeclared identifier 'ARM_MPU_Region_t'
+  const uint32_t rowWordSize = sizeof(ARM_MPU_Region_t)/4U;
+                                      ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2091): error: unknown type name 'inline'
+__STATIC_INLINE uint32_t SCB_GetFPUType(void)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2091): error: expected ';' after top level declarator
+__STATIC_INLINE uint32_t SCB_GetFPUType(void)
+                        ^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2172): error: unknown type name 'inline'
+__STATIC_INLINE uint32_t ITM_SendChar (uint32_t ch)
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(44): note: expanded from macro '__STATIC_INLINE'
+  #define __STATIC_INLINE                        static inline
+                                                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(167): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include\core_cm4.h(2172): error: expected ';' after top level declarator
+__STATIC_INLINE uint32_t ITM_SendChar (uint32_t ch)
+                        ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(13): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123\TM4C123.h(98): warning: In file included from...
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(298): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(338): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(357): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(713): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(729): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(774): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(779): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(872): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(885): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(892): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(897): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(904): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(910): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(917): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(924): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(929): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(936): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(942): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(949): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(956): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(961): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(968): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(974): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(981): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(988): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(993): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1000): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1006): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1013): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1020): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1025): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1032): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1038): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1045): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1052): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1057): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1064): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1070): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1077): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1084): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1089): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1096): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1102): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123/TM4C123GH6PM.h(1251): warning: anonymous unions are a C11 extension [-Wc11-extensions]
+  union {
+  ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(19): warning: // comments are not allowed in this language [-Wcomment]
+//-------- <<< Use Configuration Wizard in Context Menu >>> ------------------
+^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(421): warning: no previous extern declaration for non-static variable 'SystemCoreClock' [-Wmissing-variable-declarations]
+uint32_t SystemCoreClock = __CORE_CLK;  /*!< System Clock Frequency (Core Clock)*/
+         ^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(421): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint32_t SystemCoreClock = __CORE_CLK;  /*!< System Clock Frequency (Core Clock)*/
+^
+RTE/Device/TM4C123GH6PM/system_TM4C123.c(431): error: unknown type name 'inline'
+__INLINE static uint32_t getOscClk (uint32_t xtal, uint32_t oscSrc) {
+^
+C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include/cmsis_armclang.h(41): note: expanded from macro '__INLINE'
+  #define __INLINE                               inline
+                                                 ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+46 warnings and 20 errors generated.
+compiling system_TM4C123.c...
+assembling startup_TM4C123.s...
+".\Objects\lab5task5.axf" - 37 Error(s), 107 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM.CMSIS.6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:6.1.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Include file:  Device/Include/TM4C123/TM4C123.h
+      Source file:   Device/Source/system_TM4C123.c
+      Source file:   Device/Source/ARM/startup_TM4C123.s
+Target not created.
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>

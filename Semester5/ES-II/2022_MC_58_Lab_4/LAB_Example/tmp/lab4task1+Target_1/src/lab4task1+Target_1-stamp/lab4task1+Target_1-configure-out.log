@@ -1,0 +1,11 @@
+-- The C compiler identification is ARMClang 6.20.0
+-- The ASM compiler identification is ARMClang
+-- Found assembler: c:/Users/dell/.vcpkg/artifacts/2139c4c6/compilers.arm.armclang/6.20.0/bin//armclang.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: c:/Users/dell/.vcpkg/artifacts/2139c4c6/compilers.arm.armclang/6.20.0/bin//armclang.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (9.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/dell/Desktop/2022_MC_58/Semester5/ES-II/2022_MC_58_Lab_4/LAB_Example/tmp/1

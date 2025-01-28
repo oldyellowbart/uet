@@ -1,0 +1,23 @@
+Dependencies for Project 'lab5task2', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\v5
+F (.\lab5task2.c)(0x6730F54B)(--gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\lab5task2.o --omf_browse .\objects\lab5task2.crf --depend .\objects\lab5task2.d)
+I (C:\Users\dell\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EC8C6)
+I (C:\Users\dell\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FB7FC)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F750E)
+I (C:\Keil_v5\ARM\v5\include\stdint.h)(0x5E8E66F2)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F750E)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (C:\Users\dell\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6B9D6)
+F (RTE/Device/TM4C123GH6PM/startup_TM4C123.s)(0x51B6B9D6)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_tm4c123.lst --xref -o .\objects\startup_tm4c123.o --depend .\objects\startup_tm4c123.d)
+F (RTE/Device/TM4C123GH6PM/system_TM4C123.c)(0x550A3BAA)(--gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O1 --apcs=interwork --split_sections-I.\RTE\_Target_1-IC:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\dell\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="538" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o .\objects\system_tm4c123.o --omf_browse .\objects\system_tm4c123.crf --depend .\objects\system_tm4c123.d)
+I (C:\Keil_v5\ARM\v5\include\stdint.h)(0x5E8E66F2)
+I (C:\Users\dell\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EC8C6)
+I (C:\Users\dell\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FB7FC)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F750E)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F750E)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F750E)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F750E)
+I (C:\Users\dell\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F750E)
+I (C:\Users\dell\AppData\Local\Arm\Packs\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6B9D6)

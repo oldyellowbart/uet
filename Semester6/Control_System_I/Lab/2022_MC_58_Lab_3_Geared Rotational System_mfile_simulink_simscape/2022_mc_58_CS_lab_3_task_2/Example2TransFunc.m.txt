@@ -1,0 +1,11 @@
+syms s T
+theta1=T/(13*s^2+40*s+5.5);
+theta2=theta1/10;
+G=theta2/T;
+G=collect(G,s);
+[num,den]=numden(G);
+num=sym2poly(num);den=sym2poly(den);
+num=num/den(1);     %dividing by den(1) means dividing by the leading coefficient of denominator. Done to match the outputs
+den=den/den(1);
+fprintf('Theta2(s)/T(s):')
+tf(num,den)

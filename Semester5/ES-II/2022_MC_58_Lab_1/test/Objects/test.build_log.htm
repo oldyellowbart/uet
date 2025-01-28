@@ -1,0 +1,128 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: haseeb ulhassan
+uet
+User-based license: Keil MDK Community (non-commercial free of charge)
+Valid until: Jun 1 2033. Cached until: Dec 16 2024
+ 
+Tool Versions:
+Toolchain:       Keil MDK Community (non-commercial free of charge  Version: 5.41.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      lmidk-agdi.dll V???
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\dell\Desktop\2022_MC_58\Semester5\ES-II\2022_MC_58_Lab_1\test\test.uvprojx
+Project File Date:  11/13/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_TM4C123.s...
+compiling system_TM4C123.c...
+test.c(87): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+   87 |                 for(int op =0;op<999;op++)
+      |                     ^
+test.c(328): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+  328 |     for (int i = length - 1; i >= 0; i--) {
+      |          ^
+test.c(336): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+  336 |     for (int a = 0; a < length; a++) {
+      |          ^
+test.c(371): warning: passing 'char[8]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  371 |                         write_LCD_Str("error %");
+      |                                       ^~~~~~~~~
+test.c(47): note: passing argument to parameter 'str' here
+   47 | void write_LCD_Str(unsigned char *str);
+      |                                   ^
+test.c(375): warning: passing 'char[9]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  375 |                         write_LCD_Str("Th_rpm =");
+      |                                       ^~~~~~~~~~
+test.c(47): note: passing argument to parameter 'str' here
+   47 | void write_LCD_Str(unsigned char *str);
+      |                                   ^
+test.c(379): warning: passing 'char[6]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  379 |                         write_LCD_Str("RPM =");
+      |                                       ^~~~~~~
+test.c(47): note: passing argument to parameter 'str' here
+   47 | void write_LCD_Str(unsigned char *str);
+      |                                   ^
+test.c(383): warning: passing 'char[10]' to parameter of type 'unsigned char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  383 |                         write_LCD_Str("Current =");
+      |                                       ^~~~~~~~~~~
+test.c(47): note: passing argument to parameter 'str' here
+   47 | void write_LCD_Str(unsigned char *str);
+      |                                   ^
+test.c(406): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+  406 |     for (int i = length - 1; i >= 0; i--)// Extract each digit from the end
+      |          ^
+test.c(412): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+  412 |     for (int iklm = 0; iklm < length; iklm++)
+      |          ^
+test.c(420): warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  420 |                 len = strlen(str1);
+      |                              ^~~~
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\string.h(335): note: passing argument to parameter here
+  335 | extern _ARMABI size_t strlen(const char * /*s*/) __attribute__((__nonnull__(1)));
+      |                                                ^
+test.c(430): warning: passing 'unsigned char *' to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  430 |                 len = strlen(str);
+      |                              ^~~
+C:\Keil_v5\ARM\ARMCLANG\bin\..\include\string.h(335): note: passing argument to parameter here
+  335 | extern _ARMABI size_t strlen(const char * /*s*/) __attribute__((__nonnull__(1)));
+      |                                                ^
+test.c(444): warning: multi-character character constant [-Wmultichar]
+  444 |                 UART5_Transmitter('\r\n');//next line
+      |                                   ^
+test.c(444): warning: implicit conversion from 'int' to 'char' changes value from 3338 to 10 [-Wconstant-conversion]
+  444 |                 UART5_Transmitter('\r\n');//next line
+      |                 ~~~~~~~~~~~~~~~~~ ^~~~~~
+13 warnings generated.
+compiling test.c...
+linking...
+Program Size: Code=6344 RO-data=636 RW-data=0 ZI-data=656  
+".\Objects\test.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil::TM4C_DFP@1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/dell/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/dell/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+
+   * Component: Keil::Device:Startup@1.0.1
+      Include file:  Device/Include/TM4C123/TM4C123.h
+      Source file:   Device/Source/system_TM4C123.c
+      Source file:   Device/Source/ARM/startup_TM4C123.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

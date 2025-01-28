@@ -1,0 +1,15 @@
+build-idx:
+  generated-by: csolution version 2.6.0
+  csolution: lab4task1.csolution.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: lab4task1.cproject.yml
+  cbuilds:
+    - cbuild: lab4task1+Target_1.cbuild.yml
+      project: lab4task1
+      configuration: +Target_1
+      messages:
+        info:
+          - lab4task1.cbuild-set.yml - file is already up-to-date
+          - lab4task1.cbuild-pack.yml - file is already up-to-date
+          - lab4task1+Target_1.cbuild.yml - file is already up-to-date

@@ -1,0 +1,12 @@
+syms s T
+radius=2;
+theta=4*T/(59*s^2+13*s+12);
+x=2*theta;
+G=x/T;
+G=collect(G,s);
+[num,den]=numden(G);
+num=sym2poly(num);den=sym2poly(den);
+num=num/den(1);     %dividing by den(1) means dividing by the leading coefficient of denominator i.e., 20 in this case. Done to match the outputs
+den=den/den(1);
+fprintf('X(s)/T(s):')
+tf(num,den)

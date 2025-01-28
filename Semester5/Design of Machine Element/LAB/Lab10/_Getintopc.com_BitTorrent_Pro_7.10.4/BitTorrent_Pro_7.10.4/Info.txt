@@ -1,0 +1,58 @@
+﻿BitTorrent Pro 7.10.4 build 44521 Stable [4REALTORRENTZ.COM]
+
+Description:
+
+
+
+BitTorrent is a peer-to-peer file sharing (P2P) communications protocol. BitTorrent is a method of distributing large amounts of data widely without the original distributor incurring the entire costs of hardware, hosting and bandwidth resources. BitTorrent identifies content by URL and is designed to integrate seamlessly with the Web. Its advantage over plain HTTP is that when multiple downloads of the same file happen concurrently, the downloaders upload to each other, making it possible for the file source to support very large numbers of downloaders with only a modest increase in its load. Serving large files creates problems of scaling, flash crowds, and reliability. The key to cheap file distribution is to tap the unutilized upload capacity of your customers. Their contribution grows at the same rate as their demand, creating limitless scalability for a fixed cost. By using software that was built by the same team that invented BitTorrent, you are guaranteed access to the latest, most efficient methods of getting downloads to your desktop.
+
+ 
+
+- Dynamic bandwidth management – download without disrupting other applications
+ 
+- Detailed stats on the health of media files provides a safer, more controlled experience
+ 
+- No hardware configuration – reduced hassle of fast downloads.
+
+
+The new BitTorrent brings together BitTorrent’s proven expertise in networking protocols with µTorrent’s efficient implementation and compelling UI to create a better BitTorrent client. As we continue to develop this new client, we’ll be focused on innovative ways to simplify and improve the BitTorrent user experience.
+
+
+
+Features:
+
+ 
+
+- Lightweight client
+ 
+- Ad free
+ 
+- Local peer discovery
+ 
+- Multiple simultaneous downloads
+ 
+- Configurable bandwidth scheduler
+ 
+- Global and per-torrent speed limiting
+ 
+- Quick-resumes for interrupted transfers
+ 
+- RSS Downloader
+ 
+- Trackerless support (Mainline DHT)
+ 
+- Always Spyware-Free.
+
+Instructions:
+
+1. Unpack and install
+2. Select wanted features and language
+3. Copy and replace contents of pro folder to installation directory
+4. Done.
+
+Connect with Us
+======================================
+WEB : http://www.4realtorrentz.com/
+FB : https://www.facebook.com/4realtorrentz
+GOOGLE+ : https://plus.google.com/+4realtorrentz12
+TWITTER : https://twitter.com/4realtorrentz/
